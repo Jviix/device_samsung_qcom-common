@@ -23,12 +23,13 @@ TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_ARCH_VARIANT := armv7-a-neon
 
-# LineageHW
-BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
+# SamsungHW
+BOARD_HARDWARE_CLASS += hardware/samsung/samsunghw
 
 # Graphics
 TARGET_USES_C2D_COMPOSITION := true
 TARGET_USES_ION := true
+
 # Qualcomm support
 BOARD_USES_QCOM_HARDWARE := true
 
